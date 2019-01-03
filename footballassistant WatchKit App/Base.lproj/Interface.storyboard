@@ -1,16 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14256" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14243"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14219"/>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="footballassistant_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button width="1" alignment="left" title="Timers" id="rBc-gt-RIl">
+                            <connections>
+                                <segue destination="Z2j-kV-cki" kind="push" id="sZ8-ju-fUM"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="-85" y="200"/>
+        </scene>
+        <!--Timer Controller-->
+        <scene sceneID="lNy-fZ-LSW">
+            <objects>
+                <controller id="Z2j-kV-cki" customClass="TimerController" customModule="footballassistant_WatchKit_Extension">
+                    <items>
+                        <button width="1" alignment="left" title="Game clock" id="lzx-aG-0YI">
+                            <connections>
+                                <segue destination="jMX-Uy-UwD" kind="push" id="a0G-hk-Mgt"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Play clock &amp; timeout clock" id="X7K-6K-WgC"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="177" y="200"/>
+        </scene>
+        <!--Game Clock Controller-->
+        <scene sceneID="D5d-CQ-rdk">
+            <objects>
+                <controller id="jMX-Uy-UwD" customClass="GameClockController" customModule="footballassistant_WatchKit_Extension">
+                    <items>
+                        <timer width="1" height="0.29999999999999999" alignment="center" textAlignment="center" previewedSeconds="900" id="hRf-vK-8lJ">
+                            <fontDescription key="font" type="system" pointSize="50"/>
+                            <calendarUnit key="units" minute="YES" second="YES"/>
+                        </timer>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="421" y="-40"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -32,14 +74,14 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="footballassistant_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="Niz-AI-uX2">
             <objects>
-                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="footballassistant_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="345"/>
         </scene>

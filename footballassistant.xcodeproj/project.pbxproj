@@ -23,6 +23,8 @@
 		D372637521DE6E1400179C71 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372637421DE6E1400179C71 /* NotificationController.swift */; };
 		D372637721DE6E1400179C71 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372637621DE6E1400179C71 /* ComplicationController.swift */; };
 		D372637921DE6E1400179C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D372637821DE6E1400179C71 /* Assets.xcassets */; };
+		D372639021DE704800179C71 /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372638F21DE704800179C71 /* TimerController.swift */; };
+		D372639221DE71A700179C71 /* GameClockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372639121DE71A700179C71 /* GameClockController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +109,8 @@
 		D372637821DE6E1400179C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D372637A21DE6E1400179C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D372637B21DE6E1400179C71 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D372638F21DE704800179C71 /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
+		D372639121DE71A700179C71 /* GameClockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameClockController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +220,8 @@
 				D372637821DE6E1400179C71 /* Assets.xcassets */,
 				D372637A21DE6E1400179C71 /* Info.plist */,
 				D372637B21DE6E1400179C71 /* PushNotificationPayload.apns */,
+				D372638F21DE704800179C71 /* TimerController.swift */,
+				D372639121DE71A700179C71 /* GameClockController.swift */,
 			);
 			path = "footballassistant WatchKit Extension";
 			sourceTree = "<group>";
@@ -439,6 +445,8 @@
 			files = (
 				D372637521DE6E1400179C71 /* NotificationController.swift in Sources */,
 				D372637721DE6E1400179C71 /* ComplicationController.swift in Sources */,
+				D372639221DE71A700179C71 /* GameClockController.swift in Sources */,
+				D372639021DE704800179C71 /* TimerController.swift in Sources */,
 				D372637321DE6E1400179C71 /* ExtensionDelegate.swift in Sources */,
 				D372637121DE6E1400179C71 /* InterfaceController.swift in Sources */,
 			);
