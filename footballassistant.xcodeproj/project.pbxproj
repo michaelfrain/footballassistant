@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D372633821DE6E1100179C71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372633721DE6E1100179C71 /* AppDelegate.swift */; };
+		D372633A21DE6E1100179C71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372633921DE6E1100179C71 /* ViewController.swift */; };
+		D372633D21DE6E1100179C71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D372633B21DE6E1100179C71 /* Main.storyboard */; };
+		D372633F21DE6E1300179C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D372633E21DE6E1300179C71 /* Assets.xcassets */; };
+		D372634221DE6E1300179C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D372634021DE6E1300179C71 /* LaunchScreen.storyboard */; };
+		D372634D21DE6E1300179C71 /* footballassistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372634C21DE6E1300179C71 /* footballassistantTests.swift */; };
+		D372635821DE6E1300179C71 /* footballassistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372635721DE6E1300179C71 /* footballassistantUITests.swift */; };
+		D372635D21DE6E1300179C71 /* footballassistant WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D372635C21DE6E1300179C71 /* footballassistant WatchKit App.app */; };
+		D372636321DE6E1300179C71 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D372636121DE6E1300179C71 /* Interface.storyboard */; };
+		D372636521DE6E1400179C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D372636421DE6E1400179C71 /* Assets.xcassets */; };
+		D372636C21DE6E1400179C71 /* footballassistant WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D372636B21DE6E1400179C71 /* footballassistant WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D372637121DE6E1400179C71 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372637021DE6E1400179C71 /* InterfaceController.swift */; };
+		D372637321DE6E1400179C71 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372637221DE6E1400179C71 /* ExtensionDelegate.swift */; };
+		D372637521DE6E1400179C71 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372637421DE6E1400179C71 /* NotificationController.swift */; };
+		D372637721DE6E1400179C71 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372637621DE6E1400179C71 /* ComplicationController.swift */; };
+		D372637921DE6E1400179C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D372637821DE6E1400179C71 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D372634921DE6E1300179C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D372632C21DE6E1100179C71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D372633321DE6E1100179C71;
+			remoteInfo = footballassistant;
+		};
+		D372635421DE6E1300179C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D372632C21DE6E1100179C71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D372633321DE6E1100179C71;
+			remoteInfo = footballassistant;
+		};
+		D372635E21DE6E1300179C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D372632C21DE6E1100179C71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D372635B21DE6E1300179C71;
+			remoteInfo = "footballassistant WatchKit App";
+		};
+		D372636D21DE6E1400179C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D372632C21DE6E1100179C71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D372636A21DE6E1400179C71;
+			remoteInfo = "footballassistant WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D372638121DE6E1400179C71 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D372636C21DE6E1400179C71 /* footballassistant WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D372638521DE6E1400179C71 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D372635D21DE6E1300179C71 /* footballassistant WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D372633421DE6E1100179C71 /* footballassistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = footballassistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D372633721DE6E1100179C71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D372633921DE6E1100179C71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D372633C21DE6E1100179C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D372633E21DE6E1300179C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D372634121DE6E1300179C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D372634321DE6E1300179C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D372634821DE6E1300179C71 /* footballassistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = footballassistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D372634C21DE6E1300179C71 /* footballassistantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = footballassistantTests.swift; sourceTree = "<group>"; };
+		D372634E21DE6E1300179C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D372635321DE6E1300179C71 /* footballassistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = footballassistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D372635721DE6E1300179C71 /* footballassistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = footballassistantUITests.swift; sourceTree = "<group>"; };
+		D372635921DE6E1300179C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D372635C21DE6E1300179C71 /* footballassistant WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "footballassistant WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D372636221DE6E1300179C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D372636421DE6E1400179C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D372636621DE6E1400179C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D372636B21DE6E1400179C71 /* footballassistant WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "footballassistant WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D372637021DE6E1400179C71 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D372637221DE6E1400179C71 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D372637421DE6E1400179C71 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D372637621DE6E1400179C71 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		D372637821DE6E1400179C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D372637A21DE6E1400179C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D372637B21DE6E1400179C71 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D372633121DE6E1100179C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D372634521DE6E1300179C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D372635021DE6E1300179C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D372636821DE6E1400179C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D372632B21DE6E1100179C71 = {
+			isa = PBXGroup;
+			children = (
+				D372633621DE6E1100179C71 /* footballassistant */,
+				D372634B21DE6E1300179C71 /* footballassistantTests */,
+				D372635621DE6E1300179C71 /* footballassistantUITests */,
+				D372636021DE6E1300179C71 /* footballassistant WatchKit App */,
+				D372636F21DE6E1400179C71 /* footballassistant WatchKit Extension */,
+				D372633521DE6E1100179C71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D372633521DE6E1100179C71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D372633421DE6E1100179C71 /* footballassistant.app */,
+				D372634821DE6E1300179C71 /* footballassistantTests.xctest */,
+				D372635321DE6E1300179C71 /* footballassistantUITests.xctest */,
+				D372635C21DE6E1300179C71 /* footballassistant WatchKit App.app */,
+				D372636B21DE6E1400179C71 /* footballassistant WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D372633621DE6E1100179C71 /* footballassistant */ = {
+			isa = PBXGroup;
+			children = (
+				D372633721DE6E1100179C71 /* AppDelegate.swift */,
+				D372633921DE6E1100179C71 /* ViewController.swift */,
+				D372633B21DE6E1100179C71 /* Main.storyboard */,
+				D372633E21DE6E1300179C71 /* Assets.xcassets */,
+				D372634021DE6E1300179C71 /* LaunchScreen.storyboard */,
+				D372634321DE6E1300179C71 /* Info.plist */,
+			);
+			path = footballassistant;
+			sourceTree = "<group>";
+		};
+		D372634B21DE6E1300179C71 /* footballassistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				D372634C21DE6E1300179C71 /* footballassistantTests.swift */,
+				D372634E21DE6E1300179C71 /* Info.plist */,
+			);
+			path = footballassistantTests;
+			sourceTree = "<group>";
+		};
+		D372635621DE6E1300179C71 /* footballassistantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D372635721DE6E1300179C71 /* footballassistantUITests.swift */,
+				D372635921DE6E1300179C71 /* Info.plist */,
+			);
+			path = footballassistantUITests;
+			sourceTree = "<group>";
+		};
+		D372636021DE6E1300179C71 /* footballassistant WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D372636121DE6E1300179C71 /* Interface.storyboard */,
+				D372636421DE6E1400179C71 /* Assets.xcassets */,
+				D372636621DE6E1400179C71 /* Info.plist */,
+			);
+			path = "footballassistant WatchKit App";
+			sourceTree = "<group>";
+		};
+		D372636F21DE6E1400179C71 /* footballassistant WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D372637021DE6E1400179C71 /* InterfaceController.swift */,
+				D372637221DE6E1400179C71 /* ExtensionDelegate.swift */,
+				D372637421DE6E1400179C71 /* NotificationController.swift */,
+				D372637621DE6E1400179C71 /* ComplicationController.swift */,
+				D372637821DE6E1400179C71 /* Assets.xcassets */,
+				D372637A21DE6E1400179C71 /* Info.plist */,
+				D372637B21DE6E1400179C71 /* PushNotificationPayload.apns */,
+			);
+			path = "footballassistant WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D372633321DE6E1100179C71 /* footballassistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D372638621DE6E1400179C71 /* Build configuration list for PBXNativeTarget "footballassistant" */;
+			buildPhases = (
+				D372633021DE6E1100179C71 /* Sources */,
+				D372633121DE6E1100179C71 /* Frameworks */,
+				D372633221DE6E1100179C71 /* Resources */,
+				D372638521DE6E1400179C71 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D372635F21DE6E1300179C71 /* PBXTargetDependency */,
+			);
+			name = footballassistant;
+			productName = footballassistant;
+			productReference = D372633421DE6E1100179C71 /* footballassistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D372634721DE6E1300179C71 /* footballassistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D372638921DE6E1400179C71 /* Build configuration list for PBXNativeTarget "footballassistantTests" */;
+			buildPhases = (
+				D372634421DE6E1300179C71 /* Sources */,
+				D372634521DE6E1300179C71 /* Frameworks */,
+				D372634621DE6E1300179C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D372634A21DE6E1300179C71 /* PBXTargetDependency */,
+			);
+			name = footballassistantTests;
+			productName = footballassistantTests;
+			productReference = D372634821DE6E1300179C71 /* footballassistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D372635221DE6E1300179C71 /* footballassistantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D372638C21DE6E1400179C71 /* Build configuration list for PBXNativeTarget "footballassistantUITests" */;
+			buildPhases = (
+				D372634F21DE6E1300179C71 /* Sources */,
+				D372635021DE6E1300179C71 /* Frameworks */,
+				D372635121DE6E1300179C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D372635521DE6E1300179C71 /* PBXTargetDependency */,
+			);
+			name = footballassistantUITests;
+			productName = footballassistantUITests;
+			productReference = D372635321DE6E1300179C71 /* footballassistantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D372635B21DE6E1300179C71 /* footballassistant WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D372638221DE6E1400179C71 /* Build configuration list for PBXNativeTarget "footballassistant WatchKit App" */;
+			buildPhases = (
+				D372635A21DE6E1300179C71 /* Resources */,
+				D372638121DE6E1400179C71 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D372636E21DE6E1400179C71 /* PBXTargetDependency */,
+			);
+			name = "footballassistant WatchKit App";
+			productName = "footballassistant WatchKit App";
+			productReference = D372635C21DE6E1300179C71 /* footballassistant WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D372636A21DE6E1400179C71 /* footballassistant WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D372637E21DE6E1400179C71 /* Build configuration list for PBXNativeTarget "footballassistant WatchKit Extension" */;
+			buildPhases = (
+				D372636721DE6E1400179C71 /* Sources */,
+				D372636821DE6E1400179C71 /* Frameworks */,
+				D372636921DE6E1400179C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "footballassistant WatchKit Extension";
+			productName = "footballassistant WatchKit Extension";
+			productReference = D372636B21DE6E1400179C71 /* footballassistant WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D372632C21DE6E1100179C71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = mfrain;
+				TargetAttributes = {
+					D372633321DE6E1100179C71 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D372634721DE6E1300179C71 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D372633321DE6E1100179C71;
+					};
+					D372635221DE6E1300179C71 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D372633321DE6E1100179C71;
+					};
+					D372635B21DE6E1300179C71 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D372636A21DE6E1400179C71 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D372632F21DE6E1100179C71 /* Build configuration list for PBXProject "footballassistant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D372632B21DE6E1100179C71;
+			productRefGroup = D372633521DE6E1100179C71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D372633321DE6E1100179C71 /* footballassistant */,
+				D372634721DE6E1300179C71 /* footballassistantTests */,
+				D372635221DE6E1300179C71 /* footballassistantUITests */,
+				D372635B21DE6E1300179C71 /* footballassistant WatchKit App */,
+				D372636A21DE6E1400179C71 /* footballassistant WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D372633221DE6E1100179C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D372634221DE6E1300179C71 /* LaunchScreen.storyboard in Resources */,
+				D372633F21DE6E1300179C71 /* Assets.xcassets in Resources */,
+				D372633D21DE6E1100179C71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D372634621DE6E1300179C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D372635121DE6E1300179C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D372635A21DE6E1300179C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D372636521DE6E1400179C71 /* Assets.xcassets in Resources */,
+				D372636321DE6E1300179C71 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D372636921DE6E1400179C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D372637921DE6E1400179C71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D372633021DE6E1100179C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D372633A21DE6E1100179C71 /* ViewController.swift in Sources */,
+				D372633821DE6E1100179C71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D372634421DE6E1300179C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D372634D21DE6E1300179C71 /* footballassistantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D372634F21DE6E1300179C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D372635821DE6E1300179C71 /* footballassistantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D372636721DE6E1400179C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D372637521DE6E1400179C71 /* NotificationController.swift in Sources */,
+				D372637721DE6E1400179C71 /* ComplicationController.swift in Sources */,
+				D372637321DE6E1400179C71 /* ExtensionDelegate.swift in Sources */,
+				D372637121DE6E1400179C71 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D372634A21DE6E1300179C71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D372633321DE6E1100179C71 /* footballassistant */;
+			targetProxy = D372634921DE6E1300179C71 /* PBXContainerItemProxy */;
+		};
+		D372635521DE6E1300179C71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D372633321DE6E1100179C71 /* footballassistant */;
+			targetProxy = D372635421DE6E1300179C71 /* PBXContainerItemProxy */;
+		};
+		D372635F21DE6E1300179C71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D372635B21DE6E1300179C71 /* footballassistant WatchKit App */;
+			targetProxy = D372635E21DE6E1300179C71 /* PBXContainerItemProxy */;
+		};
+		D372636E21DE6E1400179C71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D372636A21DE6E1400179C71 /* footballassistant WatchKit Extension */;
+			targetProxy = D372636D21DE6E1400179C71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D372633B21DE6E1100179C71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D372633C21DE6E1100179C71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D372634021DE6E1300179C71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D372634121DE6E1300179C71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D372636121DE6E1300179C71 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D372636221DE6E1300179C71 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D372637C21DE6E1400179C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D372637D21DE6E1400179C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D372637F21DE6E1400179C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJG9839E7Y;
+				INFOPLIST_FILE = "footballassistant WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfrain.footballassistant.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		D372638021DE6E1400179C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJG9839E7Y;
+				INFOPLIST_FILE = "footballassistant WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfrain.footballassistant.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		D372638321DE6E1400179C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJG9839E7Y;
+				IBSC_MODULE = footballassistant_WatchKit_Extension;
+				INFOPLIST_FILE = "footballassistant WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfrain.footballassistant.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		D372638421DE6E1400179C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJG9839E7Y;
+				IBSC_MODULE = footballassistant_WatchKit_Extension;
+				INFOPLIST_FILE = "footballassistant WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfrain.footballassistant.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		D372638721DE6E1400179C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJG9839E7Y;
+				INFOPLIST_FILE = footballassistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfrain.footballassistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D372638821DE6E1400179C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJG9839E7Y;
+				INFOPLIST_FILE = footballassistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfrain.footballassistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D372638A21DE6E1400179C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJG9839E7Y;
+				INFOPLIST_FILE = footballassistantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfrain.footballassistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/footballassistant.app/footballassistant";
+			};
+			name = Debug;
+		};
+		D372638B21DE6E1400179C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJG9839E7Y;
+				INFOPLIST_FILE = footballassistantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfrain.footballassistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/footballassistant.app/footballassistant";
+			};
+			name = Release;
+		};
+		D372638D21DE6E1400179C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJG9839E7Y;
+				INFOPLIST_FILE = footballassistantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfrain.footballassistantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = footballassistant;
+			};
+			name = Debug;
+		};
+		D372638E21DE6E1400179C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJG9839E7Y;
+				INFOPLIST_FILE = footballassistantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfrain.footballassistantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = footballassistant;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D372632F21DE6E1100179C71 /* Build configuration list for PBXProject "footballassistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D372637C21DE6E1400179C71 /* Debug */,
+				D372637D21DE6E1400179C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D372637E21DE6E1400179C71 /* Build configuration list for PBXNativeTarget "footballassistant WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D372637F21DE6E1400179C71 /* Debug */,
+				D372638021DE6E1400179C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D372638221DE6E1400179C71 /* Build configuration list for PBXNativeTarget "footballassistant WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D372638321DE6E1400179C71 /* Debug */,
+				D372638421DE6E1400179C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D372638621DE6E1400179C71 /* Build configuration list for PBXNativeTarget "footballassistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D372638721DE6E1400179C71 /* Debug */,
+				D372638821DE6E1400179C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D372638921DE6E1400179C71 /* Build configuration list for PBXNativeTarget "footballassistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D372638A21DE6E1400179C71 /* Debug */,
+				D372638B21DE6E1400179C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D372638C21DE6E1400179C71 /* Build configuration list for PBXNativeTarget "footballassistantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D372638D21DE6E1400179C71 /* Debug */,
+				D372638E21DE6E1400179C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D372632C21DE6E1100179C71 /* Project object */;
+}
